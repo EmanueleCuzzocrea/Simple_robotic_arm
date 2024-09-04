@@ -77,3 +77,5 @@ To set up the project and run the simulation, follow these steps:
 - **Gazebo Simulation**: The robot was loaded into the Gazebo environment, with all controllers functioning correctly. The robot's joints responded accurately to position commands.
 - **Camera Integration**: The camera sensor was successfully added to the robot, with image topics correctly published and visualized in `rqt_image_view`.
 - **Joint Control**: The developed ROS node effectively controlled the robot's joints by publishing position commands, demonstrating the ability to manipulate the robotic arm within the simulation.
+
+Thank you!
