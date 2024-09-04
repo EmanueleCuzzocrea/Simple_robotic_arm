@@ -16,7 +16,7 @@ The primary objectives of this project are:
 
 ## Project Structure
 
-The project is organized into several components, each corresponding to different stages of development and testing. The primary components include:
+The primary components of the project include:
 
 1. **Robot Description and Visualization**:
     - The robotic arm's URDF is defined, and a launch file is created to visualize it in Rviz.
