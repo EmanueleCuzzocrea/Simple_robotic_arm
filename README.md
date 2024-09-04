@@ -21,16 +21,34 @@ The project is organized into several components, each corresponding to differen
 1. **Robot Description and Visualization**:
     - The robotic arm's URDF is defined, and a launch file is created to visualize it in Rviz.
     - Collision meshes are replaced with primitive shapes for better performance, and a configuration file is saved to automatically load the robot model in Rviz.
+  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4e1390ad-d564-4294-ad82-e94da16edb2d" alt="Pseudocode" width="400"/>
+</p>
+
 
 2. **Gazebo Simulation Setup**:
     - A Gazebo simulation environment is set up with the robotic arm loaded into the world.
     - Transmission and position controllers are added to the robot, allowing for joint-level control in the simulation.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bb8ca3e4-4c7b-43b5-b2e7-9a4cda0541ad" alt="Pseudocode" width="400"/>
+</p>
+
 3. **Sensor Integration**:
     - A camera sensor is added to the robot using a fixed joint. The camera is configured to publish image topics, which are then visualized using `rqt_image_view`.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/aa24bd7c-fffd-45cc-b6df-126815c84877" alt="Pseudocode" width="400"/>
+</p>
+
 4. **Control Implementation**:
     - A ROS C++ node is developed to subscribe to the `joint_states` topic, print current joint positions, and publish position commands to control the robot's joints.
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a1b2d0c0-1504-4f11-a674-ae15da542567" alt="Pseudocode" width="400"/>
+</p>
 
 ## Installation and Setup
 
